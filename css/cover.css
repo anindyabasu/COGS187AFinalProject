@@ -5,10 +5,7 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
-  padding-bottom: 40px;
-  color: #5a5a5a;
-}
+
 
 
 
@@ -175,13 +172,13 @@ a:hover {
  * Base structure
  */
 
-html,
-body {
+html {
   height: 100%;
 }
 body {
-  color: #fff;
-  text-align: center;
+    height: 100%;
+    color: #1d1d1d;
+    text-align: center;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -465,6 +462,14 @@ body {
     width: 15%;
     margin-left: 40px;
 }
+.sidebar li {
+    list-style: none;   
+}
 .sidebar li a {
     font-size: 20px;
+}
+.contentcontainer {
+    width: 82%;
+    float: left;
+    border-top: 1px solid silver;
 }
