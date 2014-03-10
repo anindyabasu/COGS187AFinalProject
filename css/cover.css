@@ -6,8 +6,60 @@
 /* Padding below the footer and lighter body text */
 
 
+/*----------begin Vicky's changes----------*/
 
+/* Homepage */
+.homebox {
+  padding-left:30px;
+  padding-right:30px;
+  text-align:justify;
+}
 
+/* Sidebar */
+.side-bar {
+  background-color:#fff;
+  border: 1px solid #eee;
+  margin-top:20px;
+}
+
+.side-bar a:hover {
+  font-weight:bold;
+ }
+
+/* Secondary page */
+.sec-header {
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:20px;
+}
+
+.descrip-container p {
+  text-align:justify;
+}
+
+.descrip-container h2 {
+  text-align:justify;
+}
+
+/* Tertiary page */
+
+.tert-content p {
+  text-align:justify;
+}
+
+.tert-content h3 {
+  text-align:justify;
+}
+
+.tert-img {
+  padding-top:60px;
+}
+
+.b2top {
+  margin-top:30px;
+}
+
+/*----------end Vicky's changes----------*/
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -346,6 +398,7 @@ body {
     text-align: left;
 }
 .homecontainer {
+    padding-top:50px;
     float: left;
     width: 100%;
 }
@@ -446,7 +499,6 @@ body {
 }
 
 .breadcrumbs {
-    margin-left: 40px;
     width: 100%;
     float: left;
     color: black; 

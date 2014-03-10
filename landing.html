@@ -13,7 +13,16 @@
 
     <!-- Custom styles for this template -->
     <link href="css/cover.css" rel="stylesheet">
-  <style type="text/css"></style><style id="holderjs-style" type="text/css"></style></head>
+    <style type="text/css"></style><style id="holderjs-style" type="text/css"></style>
+
+    <!-- JS -->
+    <script type="text/javascript">
+      $(function(){
+         $('.carousel').carousel();
+      });
+    </script>
+
+</head>
 
     <body>
         <div class="container">
@@ -67,29 +76,91 @@
                 
             </div>
             <div class="homecontainer">
+
+                  <!-- Carousel -->
+                  <div id="carousel-example-generic" class="carousel slide frontpage-carousel" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <img src="images/carousel1.jpg" alt="Text"/>
+                          <div class="carousel-caption">
+                            <h3>Caption title here</h3>
+                            <p>Caption text here</p>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <img src="images/carousel1.jpg" alt="Text"/>
+                      </div><div class="item">
+                        <img src="images/carousel2.jpg" alt="Text"/>
+                      </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                  </div>
+
+                    <div class="row">
+                      <div class="col-md-4 homebox">
+                        <img src="images/logo.jpg" alt="..."/>
+                        <h1>Text</h1>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tempus dui et vestibulum. Duis faucibus enim sed ipsum commodo pharetra. Nullam suscipit nisl sit amet nisi vehicula, ut hendrerit tellus tempus. Aenean faucibus faucibus egestas. Donec pharetra sodales vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ac dui quam. Nulla iaculis orci sed metus volutpat, eu aliquet tortor mattis. Sed tellus est, aliquam sit amet vehicula mollis, sodales eget tortor. Donec viverra ornare consequat. Nam non tristique nisi, gravida luctus lacus. Sed scelerisque at libero vel consequat. Sed eleifend massa quis erat semper euismod vitae ut nisl.
+                        </p>
+                      </div>
+                      <div class="col-md-4 homebox">
+                        <img src="images/logo.jpg" alt="..."/>
+                        <h1>Text</h1>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tempus dui et vestibulum. Duis faucibus enim sed ipsum commodo pharetra. Nullam suscipit nisl sit amet nisi vehicula, ut hendrerit tellus tempus. Aenean faucibus faucibus egestas. Donec pharetra sodales vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ac dui quam. Nulla iaculis orci sed metus volutpat, eu aliquet tortor mattis. Sed tellus est, aliquam sit amet vehicula mollis, sodales eget tortor. Donec viverra ornare consequat. Nam non tristique nisi, gravida luctus lacus. Sed scelerisque at libero vel consequat. Sed eleifend massa quis erat semper euismod vitae ut nisl.
+                        </p>
+                      </div>
+                      <div class="col-md-4 homebox">
+                        <img src="images/logo.jpg" alt="..."/>  
+                        <h1>Text</h1>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tempus dui et vestibulum. Duis faucibus enim sed ipsum commodo pharetra. Nullam suscipit nisl sit amet nisi vehicula, ut hendrerit tellus tempus. Aenean faucibus faucibus egestas. Donec pharetra sodales vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ac dui quam. Nulla iaculis orci sed metus volutpat, eu aliquet tortor mattis. Sed tellus est, aliquam sit amet vehicula mollis, sodales eget tortor. Donec viverra ornare consequat. Nam non tristique nisi, gravida luctus lacus. Sed scelerisque at libero vel consequat. Sed eleifend massa quis erat semper euismod vitae ut nisl.
+                        </p>
+                      </div>            
+                    </div><!-- .row -->
+
+
+            </div>
+
         
-                <div class="span4">
-                <table class="table">
-                  <tbody>
-                    <tr>
-                      <td><strong>March 11</strong></a></td>
-                      <td>Taps and Tapas<br><sub><i>The Bier Garden Encinitas</i></sub></td>              
-                    </tr>
-                    <tr>
-                      <td><strong>March 11</strong></a></td>
-                      <td>"Keep The Glass" Night<br><sub><i>Plan 9 Alehouse</i></sub></td>
-                    </tr>
-                    <tr>
-                      <td><strong>March 13</strong></a></td>
-                      <td>AleSmith My Bloody Valentine<br><sub><i>Small Bar Downtown</i></sub></td>
-                    </tr>
-                    <tr>
-                      <td><strong>March 14</strong></a></td>
-                      <td>O'Brien's 20th Annie<br><sub><i>Hamilton's Tavern</i></sub></td>
-                    </tr>
-                  </tbody>
-                </table>
-                </div>
+                <!--<div class="span4">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td><strong>March 11</strong></a></td>
+                        <td>Taps and Tapas<br><sub><i>The Bier Garden Encinitas</i></sub></td>              
+                      </tr>
+                      <tr>
+                        <td><strong>March 11</strong></a></td>
+                        <td>"Keep The Glass" Night<br><sub><i>Plan 9 Alehouse</i></sub></td>
+                      </tr>
+                      <tr>
+                        <td><strong>March 13</strong></a></td>
+                        <td>AleSmith My Bloody Valentine<br><sub><i>Small Bar Downtown</i></sub></td>
+                      </tr>
+                      <tr>
+                        <td><strong>March 14</strong></a></td>
+                        <td>O'Brien's 20th Annie<br><sub><i>Hamilton's Tavern</i></sub></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>-->
             </div>
             <div id="footer">
                 <ul>
