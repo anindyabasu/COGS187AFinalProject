@@ -309,8 +309,10 @@ body {
   }
 }
 .container {
-    width: 80%;
+    width: 70%;
     height: 100%;
+    border-left: silver 2px solid;
+    border-right: silver 2px solid;
 }
 .nav {
     height: 200px; 
@@ -322,7 +324,7 @@ body {
 .topnav {
     float: left;
     margin-top: 100px; 
-    margin-left: 40px;
+    margin-left: 20px;
     display: inline-block;
 }
 .topnavlink {
@@ -364,7 +366,6 @@ body {
 }
 .table {
     width: 30%;
-    margin-left: 10px;
     background-color: #f0f0f0;
 }
 .table td{
@@ -384,7 +385,7 @@ body {
 }
 .dropdown {
     display: inline-block;
-    padding-right: 90px;
+    padding-right: 40px;
 }   
 .dropdown-menu li:hover .sub-menu {
     visibility: visible;
