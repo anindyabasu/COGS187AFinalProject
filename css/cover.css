@@ -322,15 +322,25 @@ body {
   font-weight: bold;
 }
 .welcomebody {
-    display: inline-block;
+    text-align: left;
 }
 .welcomebody img {
-    float: left;   
+    float: left; 
+    border: 2px solid red;
 }
 .welcomebody h2 {
-    float: right;
-    width: 80%;
+    margin-top: 0px;
+    margin-left: 15px;
+    float: left;
+    width: 70%;
     border: 1px solid green;   
+}
+.welcomebody p {
+    margin-top: 0px;
+    margin-left:15px;
+    float: left;
+    width: 70%;
+    border: 1px solid blue;
 }
 
 /*
