@@ -78,6 +78,14 @@
 
 .b2top {
   margin-top:30px;
+  color:#fff;
+  background-color:#363636;
+  border-color:#363636;
+}
+
+.b2top:hover {
+  background-color:#696969;
+  border-color:#696969;
 }
 
 .review {
