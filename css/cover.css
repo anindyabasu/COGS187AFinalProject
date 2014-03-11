@@ -56,6 +56,10 @@
   text-align:justify;
 }
 
+.tert-content h4 {
+  text-align:justify;
+}
+
 .tert-img {
   padding:10px;
   padding-top:20px;
@@ -63,6 +67,17 @@
 
 .b2top {
   margin-top:30px;
+}
+
+.recommend {
+  border:1px solid #eee;
+  padding:15px;
+  margin-bottom:10px;
+}
+
+.recommend p {
+  margin-bottom:0px;
+  text-align:center;
 }
 
 /*----------end Vicky's changes----------*/
