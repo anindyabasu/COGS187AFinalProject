@@ -392,21 +392,35 @@ body {
     border-left: silver 2px solid;
     border-right: silver 2px solid;
 }
-.nav {
+.nav1 {
     height: 230px;
     background-image: url(../images/navbackground.png);
 }
 .logo {
-    float: left;
-    margin: 20px;   
+    position: absolute;
+    margin: 20px; 
+    z-index: 10;
 }
 .topnav {
     float: right;
-    margin-top: 10%;
+    margin-top: 0;
+    margin-left: 40px;
+    width:61%;
     display: inline-block;
-    background-color: #1d1d1d;
+    background-color: rgb(54, 54, 54);
+    z-index: 1;
+}
+.navbackground {
+    float: right;
+    margin-top: 10%;
+    width:100%;
+    height: 60px;
+    z-index: 0;
+    display: inline-block;
+    background-color: rgb(54, 54, 54); 
 }
 .topnavlink {
+    float: right;
     display: inline-block;
     text-align: center;
     font-size: 2em;
