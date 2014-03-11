@@ -95,10 +95,10 @@
 
 /* Carousel base class */
 .carousel {
-  margin-left: 100px;
-    width: 80%;
-  height: 500px;
-  margin-bottom: 60px;
+    width: 900px;
+    height: 500px;
+    margin-left: 50px;
+    margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -321,7 +321,27 @@ body {
   padding: 10px 20px;
   font-weight: bold;
 }
-
+.welcomebody {
+    text-align: left;
+}
+.welcomebody img {
+    float: left; 
+    border: 2px solid red;
+}
+.welcomebody h2 {
+    margin-top: 0px;
+    margin-left: 15px;
+    float: left;
+    width: 70%;
+    border: 1px solid green;   
+}
+.welcomebody p {
+    margin-top: 0px;
+    margin-left:15px;
+    float: left;
+    width: 70%;
+    border: 1px solid blue;
+}
 
 /*
  * Footer
@@ -367,29 +387,27 @@ body {
   }
 }
 .container {
-    width: 70%;
+    width: 1000px;
     height: 100%;
     border-left: silver 2px solid;
     border-right: silver 2px solid;
 }
 .nav {
-    height: 200px; 
+    height: 200px;
 }
 .logo {
     float: left;
     margin: 20px;   
 }
 .topnav {
-    float: left;
-    margin-top: 100px; 
-    margin-left: 20px;
+    float: right;
+    margin-top: 10%;
     display: inline-block;
 }
 .topnavlink {
-    float: left;
     display: inline-block;
     text-align: center;
-    font-size: 25px;
+    font-size: 2em;
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 5px;
@@ -480,7 +498,7 @@ body {
 /******* Footer Styling ******/
 #footer {
     float:left;
-    width: 100%;
+    width: 1000px;
     margin-top: 32px;
     margin-bottom: 10px;
     min-height: 50px;
