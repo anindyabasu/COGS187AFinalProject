@@ -8,18 +8,23 @@
 
 /*----------begin Vicky's changes----------*/
 
+/* General */
+
+.ext-link {
+  text-align:right;
+}
+
+.side-bar {
+  background-color:#fff;
+  border: 1px solid #eee;
+  margin-top:20px;
+}
+
 /* Homepage */
 .homebox {
   padding-left:30px;
   padding-right:30px;
   text-align:justify;
-}
-
-/* Sidebar */
-.side-bar {
-  background-color:#fff;
-  border: 1px solid #eee;
-  margin-top:20px;
 }
 
 .side-bar a:hover {
@@ -53,6 +58,7 @@
 
 .tert-img {
   padding:10px;
+  padding-top:20px;
 }
 
 .b2top {
