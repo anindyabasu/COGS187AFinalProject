@@ -11,10 +11,6 @@
 
 /* General */
 
-.ext-link {
-  text-align:right;
-}
-
 .side-bar {
   background-color:#fff;
   border: 1px solid #eee;
@@ -45,6 +41,7 @@
 
 .descrip-container h2 {
   text-align:justify;
+  color:#363636;
 }
 
 /* Tertiary page */
@@ -55,10 +52,24 @@
 
 .tert-content h3 {
   text-align:justify;
+  color:#363636;
 }
 
 .tert-content h4 {
   text-align:justify;
+}
+
+.subheading {
+  color:#d1d1d1;
+  font-weight:bold;
+  font-style:italic;
+}
+
+.tert-content a:hover {
+    color: #fbd629;
+    text-decoration: none;
+    text-shadow: none;
+    background-color: transparent;  
 }
 
 .tert-img {
@@ -233,14 +244,13 @@
 }
 
 /* Links */
-a,
-a:focus,
-a:hover {
+a, a:hover, a:focus {
     color: #333;
     text-decoration: none;
     text-shadow: none;
     background-color: transparent;
 }
+
 
 /* Custom default button */
 .btn-default,
