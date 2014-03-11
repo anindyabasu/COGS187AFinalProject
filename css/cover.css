@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 /*
  * Globals
  */
@@ -110,9 +111,8 @@
 
 /* Carousel base class */
 .carousel {
-    width: 900px;
+    width: 970px;
     height: 500px;
-    margin-left: 50px;
     margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -341,21 +341,21 @@ body {
 }
 .welcomebody img {
     float: left; 
-    border: 2px solid red;
 }
 .welcomebody h2 {
     margin-top: 0px;
     margin-left: 15px;
     float: left;
     width: 70%;
-    border: 1px solid green;   
+    font-family: 'Lato', sans-serif;
 }
 .welcomebody p {
     margin-top: 0px;
     margin-left:15px;
     float: left;
     width: 70%;
-    border: 1px solid blue;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 /*
@@ -439,10 +439,12 @@ body {
     display: inline-block;
     text-align: center;
     font-size: 2em;
+    font-family: 'Lato', sans-serif;
     color: white;
+    margin-top: 4px;
     padding-left: 2px;
     padding-right: 2px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
     border-bottom: 3px solid rgb(255,217,41);
 }
 .active {
@@ -459,12 +461,6 @@ body {
     padding-top:50px;
     float: left;
     width: 100%;
-}
-.footer {
-    float: left;
-    height: 10%;
-    width: 100%;
-    background-color: rgb(255, 200, 41);
 }
 .credits {
     margin-top: 1%;
@@ -530,7 +526,7 @@ body {
 /******* Footer Styling ******/
 #footer {
     float:left;
-    width: 1000px;
+    width: 100%;
     margin-top: 32px;
     margin-bottom: 10px;
     min-height: 50px;
