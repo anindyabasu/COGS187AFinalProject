@@ -361,13 +361,14 @@ body {
   }
 }
 .container {
-    width: 70%;
+    width: 1000px;
     height: 100%;
     border-left: silver 2px solid;
     border-right: silver 2px solid;
 }
 .nav {
-    height: 200px; 
+    height: 200px;
+    border: 2px solid red;
 }
 .logo {
     float: left;
@@ -375,19 +376,20 @@ body {
 }
 .topnav {
     float: left;
-    margin-top: 100px; 
-    margin-left: 20px;
+    margin-top: 10%;
     display: inline-block;
+    border: 3px solid green;
 }
 .topnavlink {
-    float: left;
+    float: right;
     display: inline-block;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5em;
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 5px;
     border-bottom: 3px solid rgb(255,217,41);
+    border: 10px solid blue;
 }
 .active {
     border-bottom: 3px solid #262626;   
@@ -474,7 +476,7 @@ body {
 /******* Footer Styling ******/
 #footer {
     float:left;
-    width: 100%;
+    width: 1000px;
     margin-top: 32px;
     margin-bottom: 10px;
     min-height: 50px;
