@@ -393,7 +393,8 @@ body {
     border-right: silver 2px solid;
 }
 .nav {
-    height: 200px;
+    height: 230px;
+    background-image: url(../images/navbackground.png);
 }
 .logo {
     float: left;
@@ -403,11 +404,13 @@ body {
     float: right;
     margin-top: 10%;
     display: inline-block;
+    background-color: #1d1d1d;
 }
 .topnavlink {
     display: inline-block;
     text-align: center;
     font-size: 2em;
+    color: white;
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 5px;
