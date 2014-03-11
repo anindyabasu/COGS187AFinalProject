@@ -89,10 +89,10 @@
 
 /* Carousel base class */
 .carousel {
-  margin-left: 100px;
-    width: 80%;
-  height: 500px;
-  margin-bottom: 60px;
+    width: 900px;
+    height: 500px;
+    margin-left: 50px;
+    margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -315,7 +315,17 @@ body {
   padding: 10px 20px;
   font-weight: bold;
 }
-
+.welcomebody {
+    display: inline-block;
+}
+.welcomebody img {
+    float: left;   
+}
+.welcomebody h2 {
+    float: right;
+    width: 80%;
+    border: 1px solid green;   
+}
 
 /*
  * Footer
@@ -368,28 +378,24 @@ body {
 }
 .nav {
     height: 200px;
-    border: 2px solid red;
 }
 .logo {
     float: left;
     margin: 20px;   
 }
 .topnav {
-    float: left;
+    float: right;
     margin-top: 10%;
     display: inline-block;
-    border: 3px solid green;
 }
 .topnavlink {
-    float: right;
     display: inline-block;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 5px;
     border-bottom: 3px solid rgb(255,217,41);
-    border: 10px solid blue;
 }
 .active {
     border-bottom: 3px solid #262626;   
