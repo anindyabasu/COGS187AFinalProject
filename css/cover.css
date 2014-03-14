@@ -370,7 +370,7 @@ body {
   font-weight: bold;
 }
 .welcomebody {
-    text-align: left;
+    text-align: justify;
 }
 .welcomebody img {
     float: left; 
