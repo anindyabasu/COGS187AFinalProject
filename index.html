@@ -5,7 +5,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
-
+    <link rel="icon" type="image/png" href="images/favicon.ico">
     <title>All about Beer</title>
 
     <!-- Bootstrap core CSS -->
@@ -13,51 +13,150 @@
 
     <!-- Custom styles for this template -->
     <link href="css/cover.css" rel="stylesheet">
+    <style type="text/css"></style><style id="holderjs-style" type="text/css"></style>
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- JS -->
+    <script type="text/javascript">
+      $(function(){
+         $('.carousel').carousel();
+      });
+    </script>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  <style type="text/css"></style><style id="holderjs-style" type="text/css"></style></head>
+</head>
 
-  <body>
+    <body>
+        <div class="container">
+            <div class="nav1">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" width=200px></img></a>
+                </div>
+                <div class="navbackground">
+                    <div class="topnav">
+                    <li class="dropdown">
+                      <a href="basics.html" data-toggle="dropdown" class="dropdown-toggle disabled"><span class="topnavlink">Basics</span></a>
+                      <ul class="dropdown-menu" id="menu1">
+                        <li><a href="styles.html">Styles</a></li>
+                        <li><a href="tastes.html">Tastes</a></li>
+                        <li><a href="brewing.html">Brewing</a></li>
+                        <li><a href="how-to.html">How-to</a></li>
+                        <li><a href="safety.html">Safety</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="what.html" data-toggle="dropdown" class="dropdown-toggle disabled"><span class="topnavlink">What to Drink</span></a>
+                      <ul class="dropdown-menu" id="menu1">
+                        <li><a href="trending.html">Newest & Trending</a></li>
+                        <li><a href="budget.html">Beer on a Budget</a></li>
+                        <li><a href="pop-local.html">Popular Local Beers</a></li>
+                        <li><a href="staff.html">Staff Recommended Beers</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="where.html" data-toggle="dropdown" class="dropdown-toggle disabled"><span class="topnavlink">Where to Drink</span></a>
+                      <ul class="dropdown-menu" id="menu1">
+                        <li><a href="breweries.html">Breweries</a></li>
+                        <li><a href="bars.html">Bars</a></li>
+                        <li><a href="stores.html">Stores</a></li>
+                        <li><a href="events.html">Events & Tours</a></li>
+                      </ul>
+                    </li>
+                </div>
+                    </div>
+                
+                
+            </div>
+            <div class="homecontainer">
 
-    <div class="site-wrapper">
+                  <!-- Carousel -->
+                  <div id="carousel-example-generic" class="carousel slide frontpage-carousel" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
 
-      <div class="site-wrapper-inner">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <img src="images/carousel1.jpg" alt="Text"/>
+                          <div class="carousel-caption">
+                        </div>
+                      </div>
+                      <div class="item">
+                        <img src="images/carousel3.jpg" alt="Text"/>
+                      </div><div class="item">
+                        <img src="images/carousel2.jpg" alt="Text"/>
+                        </div>
+                    </div>
 
-        <div class="cover-container">
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                  </div>
+                    <div class="welcomebody">
+                        <img src="images/indexwelcome.jpg" width="240px" height="240px" class="img-circle" />
+                        <h2>Welcome</h2>
+                        <p>This site was designed with craft beer beginners in mind. If you’re new to the San Diego craft beer scene, have no fear because SD beer is here!</p>
+                        <p>We know how hard it is to jump straight into craft beer, so we have compiled all the best information for those beer newbies looking to expand their beer proficiency.</p>
+                        <p>On this site, we provide all the beer information you’ll need to get started on learning about craft beer. You’ll find information ranging from some of the newest and most popular craft brews of San Diego, the most popular breweries, pubs, and events in the area, to some useful basics that will have you identifying beer and talking intelligently about any beer in no time.</p>
+                        <p>Peruse our site and take your first steps to becoming a true San Diego craft beer connoisseur.</p>
+                        <p>Enjoy!</p>
+                    </div>
 
 
-          <div class="inner cover">
-            <h1 class="cover-heading">Welcome to pubSD</h1>
-            <p class="lead">Useful beer information for novice and expert consumers alike!</p>
-            <p class="lead">
-              <a href="landing.html" class="btn btn-lg btn-default">Learn more</a>
-            </p>
-          </div>
+            </div>
 
-          <div class="mastfoot">
-              <p>Made using <a href="http://getbootstrap.com">Bootstrap</a> <br>Anindya Basu, Vicky Tu, and Luke Eberle</p>
+        
+                <!--<div class="span4">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td><strong>March 11</strong></a></td>
+                        <td>Taps and Tapas<br><sub><i>The Bier Garden Encinitas</i></sub></td>              
+                      </tr>
+                      <tr>
+                        <td><strong>March 11</strong></a></td>
+                        <td>"Keep The Glass" Night<br><sub><i>Plan 9 Alehouse</i></sub></td>
+                      </tr>
+                      <tr>
+                        <td><strong>March 13</strong></a></td>
+                        <td>AleSmith My Bloody Valentine<br><sub><i>Small Bar Downtown</i></sub></td>
+                      </tr>
+                      <tr>
+                        <td><strong>March 14</strong></a></td>
+                        <td>O'Brien's 20th Annie<br><sub><i>Hamilton's Tavern</i></sub></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>-->
+                <div id="footer">
+                <ul>
+                    <li><a href="index.html">Beer San Diego</a></li>
+                    <li> | </li>
+                    <li><a href="basics.html">Basics</a></li>
+                    <li><a href="what.html">What to Drink</a></li>
+                    <li><a href="where.html">Where to Drink</a></li>
+                    <li style="margin-left: 24%;">© 2014</li>
+                    <li><a href="http://www.anindyabasu.com">Anindya Basu</a></li>
+                    <li><a href="http://www.lukeeberle.com">Luke Eberle</a></li>
+                    <li><a href="">Vicky Tu</a></li>
+                    
+                </ul>
+                </div>
+            </div>
             
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
+        
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/docs.min.js"></script>
-  
-
-</body></html>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/docs.min.js"></script>
+    </body>
+</html>
