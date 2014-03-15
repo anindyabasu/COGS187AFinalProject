@@ -451,7 +451,6 @@ body {
     margin-left: 40px;
     width:61%;
     display: inline-block;
-    background-color: rgb(54, 54, 54);
     z-index: 1;
 }
 .navbackground {
@@ -461,7 +460,8 @@ body {
     height: 60px;
     z-index: 0;
     display: inline-block;
-    background-color: rgb(54, 54, 54); 
+    background-image: url(../images/footerbackground1.png);
+    background-repeat: repeat;
 }
 .topnavlink {
     float: right;
