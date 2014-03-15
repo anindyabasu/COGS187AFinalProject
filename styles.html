@@ -306,6 +306,7 @@
                     <div class="col-md-3 tert-img">
                       <a href="http://beerutopia.com/2008/06/12/beer-101-what-is-lambic/"><img src="images/beerutopia.jpg" class="img-circle" alt="..." /></a>
                     </div>
+                    <a href="#top" class="btn btn-primary btn-md pull-right b2top" role="button">Back to top</a>
                   </div>
             </div><!-- .row -->
 
@@ -333,5 +334,20 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/docs.min.js"></script>
+<script>$('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+                || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                   if (target.length) {
+                     $('html,body').animate({
+                         scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+        </script>
     </body>
 </html>
