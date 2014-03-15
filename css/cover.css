@@ -46,7 +46,6 @@
 
 .descrip-container h2 {
   text-align:justify;
-  color:#363636;
 }
 
 /* Tertiary page */
@@ -257,13 +256,15 @@
 
 /* Links */
 a, a:hover, a:focus {
-    color: #333;
+    color: #ffce00;
     text-decoration: none;
     text-shadow: none;
     background-color: transparent;
 }
 
-
+h2 {
+    color: #ffb100;   
+}
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
@@ -592,7 +593,6 @@ body {
     color: #ffa700;   
 }
 .sidebar {
-    border-right: silver 1px solid;
     float: left;
     height: 40%;
     width: 15%;
