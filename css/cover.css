@@ -31,6 +31,7 @@
 .side-bar a {
     font-size: 1.2em; 
     color: #1d1d1d;
+    font-family: Georgia;
 }
 .side-bar li a:hover {
     background-color: transparent;
@@ -291,6 +292,7 @@ body {
     text-align: center;
     background-image: url(../images/crossword.png);
     background-repeat: repeat;
+    font-family: Tahoma, sans-serif
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -523,6 +525,10 @@ body {
     top: 0;
     visibility: hidden;
     margin-top: -1px;
+    border: 5px solid transparent;
+    border radious: 0px;
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0);
+    box-shadow: 0 0px 0px rgba(0,0,0,0);
 }
 .dropdown {
     display: inline-block;
