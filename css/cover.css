@@ -12,8 +12,8 @@
 /* General */
 
 .side-bar {
-  background-color:#fff;
-  border: 1px solid #eee;
+  background-color:transparent;
+  border: 1px solid transparent;
   margin-top:20px;
 }
 
@@ -28,9 +28,12 @@
   padding-right:30px;
   text-align:justify;
 }
-
-.side-bar a:hover {
-  font-weight:bold;
+.side-bar a {
+    font-size: 1.2em; 
+    color: #1d1d1d;
+}
+.side-bar li a:hover {
+    background-color: transparent;
  }
 
 /* Secondary page */
@@ -472,6 +475,7 @@ body {
     display: inline-block;
     text-align: center;
     font-size: 2em;
+    font-family: Georgia;
     color: white;
     margin-top: 4px;
     padding-left: 2px;
@@ -554,7 +558,6 @@ body {
     left: -6px;
 }
 
-
 /******* Footer Styling ******/
 #footer {
     float:left;
@@ -597,6 +600,7 @@ body {
     height: 40%;
     width: 15%;
     margin-left: 40px;
+    border: 2px solid transparent;
 }
 .sidebar li {
     list-style: none;   
