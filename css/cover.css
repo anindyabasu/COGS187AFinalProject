@@ -13,7 +13,10 @@
 
 .side-bar {
   background-color:transparent;
-  border: 1px solid transparent;
+  border: 0px solid transparent;
+  border-right: 2px solid silver;
+    border-radius: 0px;
+    box-shadow: none;
   margin-top:20px;
 }
 
@@ -31,7 +34,7 @@
 .side-bar a {
     font-size: 1.2em; 
     color: #1d1d1d;
-    font-family: Georgia;
+    font-family: Tahoma;
 }
 .side-bar li a:hover {
     background-color: transparent;
@@ -477,7 +480,7 @@ body {
     display: inline-block;
     text-align: center;
     font-size: 2em;
-    font-family: Georgia;
+    font-family: Tahoma;
     color: white;
     margin-top: 4px;
     padding-left: 2px;
